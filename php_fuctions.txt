@@ -1,0 +1,21 @@
+<?php
+function sum($parameter1, $parameter2)
+{
+    $addition = $parameter1 + $parameter2;
+    echo "Sum of two variables is " . $addition . ".";
+    return;
+}
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable, Data types and Operators</title>
+    </head>
+    <body>
+        <?php
+          $var1 = 2;
+          $var2 = 2;
+          sum($var1,$var2);
+        ?>
+    </body>
+</html>
