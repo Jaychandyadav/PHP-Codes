@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable, Data types and Operators</title>
+    </head>
+    <body>
+        <?php
+          $number = array(18,20);
+          $num = $number[0]+$number[1];
+          echo "Sum of two variable is " . $num . ".";
+        ?>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable, Data types and Operators</title>
+    </head>
+    <body>
+        <?php
+          $number = array("first"=>20,"second"=>20);
+          $num = $number["first"]+$number["second"];
+          echo "Sum  " . $num . ".";
+          print_r($number)
+        ?>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable, Data types and Operators</title>
+    </head>
+    <body>
+        <?php
+          $number = array(18,20);
+          $num = $number[0]+$number[1];
+          echo "Sum of two variable is " . $num . ".";
+        ?>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable, Data types and Operators</title>
+    </head>
+    <body>
+        <?php
+          $number = array(array(10,12),array(1,2));
+          $sum = $number[0][0] + $number[0][1];
+          echo "Sum of two variables is " . $sum . " ";
+        ?>
+    </body>
+</html>
